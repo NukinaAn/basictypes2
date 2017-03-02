@@ -19,6 +19,7 @@ public class Test3 {
         switch(x){
         case 1:{
              String[] s = new String[10];
+              // тут я пытаюсь рандомно вывести одно из предложений, но не получается
              String Random  = (s[new Random().nextInt(10)]);
              int a = new Random().nextInt(10);
              String random = (s[a]);
@@ -36,7 +37,7 @@ public class Test3 {
          }break;
          case 2: {
              String[] s = new String[10];
-          
+          // тут я пытаюсь рандомно вывести одно из предложений тоже, получается, но оно мне рандомно просто все 10 выводит
             int length = s.length;
             for (int i = 0; i < length; i++){
             int rand = (int) (Math.random() * length);
