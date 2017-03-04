@@ -22,8 +22,7 @@ public class Test3 {
             a1[9] = "Соображения высшего порядка, а также ";
               
              System.out.print("Строка №"+i+" ");
-            for(int j=0; j < a[i].length; j++){
-             String [] a2 = new String [a.length];
+            String [] a2 = new String [a.length];
             a2[0] = "реализация намеченных плановых заданий";
             a2[1] = "рамки и место обучения кадров ";
             a2[2] = "постоянный количественный рост и сфера нашей активности \n" 
@@ -35,6 +34,7 @@ public class Test3 {
             a2[7] = "укрепления и развития структуры ";
             a2[8] = "консультация с широким активом";
             a2[9] = "начало повседневной работы по формированию позиции";
+            
               String [] a3 = new String [a.length];
             a3[0] = "играет важную роль в формировании";
             a3[1] = "требуют от нас анализа ";
@@ -62,7 +62,7 @@ public class Test3 {
                int length = a1.length;
                int rand = (int) (Math.random() * length);
                   System.out.print(a1[rand] + " " + a2[rand]+ " " + a3[rand]+ " " + a4[rand]);
-                 System.out.println(" ");
+                  System.out.println(" ");
                 }
             }
      }
